@@ -1,4 +1,4 @@
-from udm_python import udms3
+from udm_python import udm
 
 """
 Objective 1: Multiple programming languages will access the data from file source

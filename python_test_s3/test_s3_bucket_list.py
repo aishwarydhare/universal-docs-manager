@@ -1,9 +1,9 @@
-from udm_python.udms3 import get_bucket_list
+from udm_python.udm import get_bucket_list
 
 if __name__ == "__main__":
     ret = get_bucket_list(
         aws_config_file_path="../.my-aws-config",
-        bucket_name='repos-master-bucket',
+        bucket_name='sample-bucket',
         region='us-east-2',
         output_file='../tmp/my_output.txt',
         prefix="myDirectoryName"

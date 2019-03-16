@@ -1,4 +1,4 @@
-from udm_python.udms3 import delete_object_from_local
+from udm_python.udm import delete_object_from_local
 
 if __name__ == "__main__":
     ret = delete_object_from_local(

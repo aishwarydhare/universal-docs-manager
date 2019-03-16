@@ -1,4 +1,4 @@
-from udm_python.udms3 import get_object_metadata_from_local
+from udm_python.udm import get_object_metadata_from_local
 
 if __name__ == "__main__":
     ret = get_object_metadata_from_local(

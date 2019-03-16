@@ -1,4 +1,4 @@
-from udm_python.udms3 import upload_file_to_mysql
+from udm_python.udm import upload_file_to_mysql
 
 if __name__ == "__main__":
     ret = upload_file_to_mysql(

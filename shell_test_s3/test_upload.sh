@@ -9,7 +9,7 @@ echo '</tester>' >> "${inputFile}"
 
 # May need: `chmod +x upload_s3.sh`
 
-if ../src/upload_object_s3.sh "${inputFile}" 'repos-master-bucket' 'us-east-2' 'STANDARD' 'myDirectoryName/myTwoFileName.xml'; then
+if ../src/upload_object_s3.sh "${inputFile}" 'sample-bucket' 'us-east-2' 'STANDARD' 'myDirectoryName/myTwoFileName.xml'; then
   echo 'OK'
   rm "${inputFile}"
 else

@@ -1,5 +1,4 @@
 import os
-import xmltodict
 
 
 class UDMFileObject:
@@ -93,6 +92,7 @@ def delete_object_from_s3(aws_config_file_path: str, input_object: str, bucket_n
 
 def get_bucket_list(aws_config_file_path: str, bucket_name: str, region: str,
                     output_file: str, prefix: str = "") -> S3BucketList:
+    import xmltodict
     r = os.system("export AWS_CONFIG_FILE='%s' && ../src/get_bucket_list_s3.sh %s %s %s %s"
                   % (aws_config_file_path, bucket_name, region, output_file, prefix))
     if not isinstance(r, int):

@@ -1,4 +1,4 @@
-from udm_python.udms3 import get_object_from_mysql
+from udm_python.udm import get_object_from_mysql
 
 if __name__ == "__main__":
     ret = get_object_from_mysql(
