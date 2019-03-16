@@ -1,17 +1,4 @@
-#!/bin/sh -u
-
-# To the extent possible under law, Viktor Szakats (vszakats.net)
-# has waived all copyright and related or neighboring rights to this
-# script.
-# CC0 - https://creativecommons.org/publicdomain/zero/1.0/
-
-# Upload a file to Amazon AWS S3 using Signature Version 4
-#
-# docs:
-#    https://docs.aws.amazon.com/general/latest/gr/sigv4-create-canonical-request.html
-#
-# requires:
-#    curl, openssl 1.x, GNU sed, LF EOLs in this file
+#!/bin/sh
 
 fileLocal="${1:-example-local-file.ext}"
 bucket="${2:-example-bucket}"

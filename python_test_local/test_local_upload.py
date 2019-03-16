@@ -1,4 +1,4 @@
-from udms3 import upload_file_to_local
+from udm_python.udms3 import upload_file_to_local
 
 if __name__ == "__main__":
     ret = upload_file_to_local(

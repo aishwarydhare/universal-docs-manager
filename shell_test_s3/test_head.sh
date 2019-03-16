@@ -11,4 +11,3 @@ if ../src/head_object_s3.sh 'myDirectoryName/myTwoFileName.xml' 'repos-master-bu
 else
   echo "Failed ($?)"
 fi
-

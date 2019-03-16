@@ -1,4 +1,4 @@
-from udms3 import get_bucket_list
+from udm_python.udms3 import get_bucket_list
 
 if __name__ == "__main__":
     ret = get_bucket_list(

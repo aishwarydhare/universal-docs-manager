@@ -1,4 +1,4 @@
-from udms3 import get_object_from_s3
+from udm_python.udms3 import get_object_from_s3
 
 if __name__ == "__main__":
     ret = get_object_from_s3(
@@ -12,4 +12,4 @@ if __name__ == "__main__":
     if ret:
         print("get object successful")
     else:
-        print("upload failed")
+        print("request failed")

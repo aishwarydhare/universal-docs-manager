@@ -1,4 +1,5 @@
 #!/bin/sh
+
 mysqlHost="${1:-mysql host not provided}"
 mysqlUser="${2:-mysql user not provided}"
 mysqlPass="${3:-mysql password not provided}"
